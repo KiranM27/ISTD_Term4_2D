@@ -1,0 +1,7 @@
+In the CNF,
+we chose to test the most significant sum bit (S31) beacuse in the case of the Ripple Carry Adder (RCA), the carry-in  
+for the S31 bit (COut30) depends on all the previous carries (COut29 to  Cin).
+In the case of the Carry Lookahead adder, the carry-in for every bit goes through 5 layers, therefore the logic for any carry 
+in CLA is similar.
+Hnece, testing the S31 bit for both adders allows us to consider the term with the most number of computations in each
+case, thereby strongly proving the logic of our optimised Carry Look Ahead Adder. 
